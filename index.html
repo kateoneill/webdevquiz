@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css">
+ 
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>The Ultimate Quiz Challenge</title>
+ </head>
+
+  <div class="container">
+  
+   <div class="ui center aligned grid row">
+<header class = "column">
+<h1>The Ultimate Quiz Challenge</h1></br>
+
+</header>
+</div>
+<body>
+   
+  
+   <div class="ui center aligned grid row">
+   <div class="loginform">
+   <h2>Sign up</h2>
+  <form action="quiz.html" method="get" id = "signup" class = "ui form" onsubmit="return verifyAge(this)">
+
+<div class="form2">
+    <div class="field" >
+    <label for="contactname"><h4>Name</h4></label><br>
+	<input type="text"  name="contactname" id="contactname" autofocus>
+	<div id="feedback" ></div>
+    </div> 
+    </div>
+   
+   <div class="field">
+   <label for="emailaddress" ><h4>E-Mail Address</h4></label><br>
+   <input type="email" name="emailaddress" id="emailaddress" autofocus>
+   </div>
+   
+   <div class="inline field">
+    <input type="checkbox" value="ageverify" id="ageverify" autofocus >
+   <label for="ageverify"><h4>I am at least 16 years old</h4></label>
+   </div>
+   
+   <button class="ui button" type="submit" id="button" >Start Quiz</button>
+  </form>
+  </div>
+  </div>
+ </div>
+
+  <script src="js/form.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

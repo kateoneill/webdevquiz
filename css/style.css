@@ -1,0 +1,89 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background:#518190;
+}
+
+.loginform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background:#89B1BD;
+  box-sizing: border-box;
+  
+  border-radius: 10px;
+	}
+	
+	.loginform h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: black;
+  text-align: center;
+  font-family:"Arial Black";
+}
+
+h1{
+	padding-top:30px;
+	text-align:center;
+	font-size:70px;
+	font-family:"Arial Black";
+}
+
+img{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+
+h3{
+	font-size:50px;
+	position:relative;
+	left:400px;
+}
+
+div #feedback{
+	background-color:white;
+	border:yellow;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#contactname {
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-top:5px;
+  margin-bottom:5px;
+}	
+
+#emailaddress{
+	 border: 2px solid black;
+  border-radius: 4px;
+  padding: 10px 15px;
+    margin-top:5px ;
+	margin-bottom:5px
+}
+
+#contactname:focus{
+	background-color: #BED4DA;
+}
+
+#emailaddress:focus{
+	background-color: #BED4DA;
+}
+
+#button{
+	 background-color: #436A75 ;
+  border: 3px solid black;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width:100%;
+}
